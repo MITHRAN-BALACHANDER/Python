@@ -15,7 +15,7 @@ except Exception as e:
 
 engine = pyttsx3.init()
 
-engine.setProperty('rate', 100)  # Slower speech
+engine.setProperty('rate', 150)  # Slower speech
 
 # Set volume (0.0 to 1.0)
 engine.setProperty('volume', 1.0)  
