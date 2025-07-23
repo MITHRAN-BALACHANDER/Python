@@ -4,14 +4,12 @@ from tkinter import filedialog, messagebox
 from PIL import Image, ImageTk
 import pyttsx3
 import random
-
 try:
     model = YOLO("yolov8x.pt")
     print("✅ YOLOv8x model loaded successfully!")
 except Exception as e:
     print(f"❌ Failed to load YOLO model: {e}")
     model = None
-
 
 engine = pyttsx3.init()
 
